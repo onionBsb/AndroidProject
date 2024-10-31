@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/test3_size"
+        android:title="字体大小">
+
+        <menu>
+            <item
+                android:id="@+id/test3_size_small"
+                android:title="小字体(10)" />
+            <item
+                android:id="@+id/test3_size_mid"
+                android:title="中字体(16)" />
+            <item
+                android:id="@+id/test3_size_big"
+                android:title="小字体(20)" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/test3_normal"
+        android:title="普通菜单项"/>
+    <item
+        android:id="@+id/test3_color"
+        android:title="字体颜色">
+        <menu>
+            <item
+                android:id="@+id/test3_color_black"
+                android:title="黑色" />
+            <item
+                android:id="@+id/test3_color_red"
+                android:title="红色" />
+        </menu>
+
+    </item>
+
+</menu>
