@@ -43,7 +43,8 @@
 
         <activity
             android:name=".Test3Activity"
-            android:exported="true">
+            android:exported="true"
+            android:label="Sy3(test3)">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

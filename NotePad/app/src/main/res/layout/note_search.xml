@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5dp"
+    android:paddingTop="10dp"
+    android:paddingRight="5dp"
+    android:background="#ddd"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:id="@+id/search_ctn"
+        android:layout_width="1dp"
+        android:layout_weight="0.85"
+        android:layout_height="50dp"
+        android:background="@drawable/border_radius"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/search_logo"
+            android:src="@drawable/search"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            />
+
+        <EditText
+            android:id="@+id/note_search"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="20dp"
+            android:hint="请输入"
+            android:textColor="#333"
+            android:focusable="true"
+            android:singleLine="true"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"/>
+<!--android:background="@android:color/transparent"可以去掉下划线-->
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/note_cancel"
+        android:layout_width="1dp"
+        android:layout_weight="0.15"
+        android:layout_height="50dp"
+        android:text="取消"
+        android:textSize="20dp"
+        android:textColor="#0000ff"
+        android:gravity="center"/>
+
+
+
+
+
+</LinearLayout>

@@ -36,6 +36,7 @@ public class Test2Activity extends Activity {
         AlertDialog dialog = builder.create();
 
         dialog.show();
+
         cancelBtn.setOnClickListener(v -> {
             Toast.makeText(context, "取消", Toast.LENGTH_SHORT)
                     .show();

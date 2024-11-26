@@ -8,6 +8,6 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:id="@+id/showDialog"
-        android:text="点击"/>
+        android:text="点击出现Dialog"/>
 
 </LinearLayout>
