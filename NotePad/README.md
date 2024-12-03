@@ -5,7 +5,7 @@
 
 完成效果：
 
-![](D:\Android\project\NotePad\img\image-20241126132035932.png)
+![](./img/image-20241126132035932.png)
 
 如何实现：
 
