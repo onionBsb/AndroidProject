@@ -11,17 +11,17 @@
 
 首先布局文件修改，通过线性布局设置两个textview控件
 
-![image-20241126162444201](C:\Users\29424\AppData\Roaming\Typora\typora-user-images\image-20241126162444201.png)
+![](./img/image-20241126162444201.png)
 
 更新日记的时候存入对应的时间
 
-![image-20241126132435166](C:\Users\29424\AppData\Roaming\Typora\typora-user-images\image-20241126132435166.png)
+![image-20241126132435166](./img/image-20241126132435166.png)
 
 然后再notelist里面调用，添加对应属性列
 
-![image-20241126132503514](C:\Users\29424\AppData\Roaming\Typora\typora-user-images\image-20241126132503514.png)
+![image-20241126132503514](./img/image-20241126132503514.png)
 
-![image-20241126132553682](C:\Users\29424\AppData\Roaming\Typora\typora-user-images\image-20241126132553682.png)
+![image-20241126132553682](./img/image-20241126132553682.png)
 
 
 
@@ -29,35 +29,35 @@
 
 首先再menu文件下添加搜索的按钮
 
-![image-20241126132754197](C:\Users\29424\AppData\Roaming\Typora\typora-user-images\image-20241126132754197.png)
+![image-20241126132754197](./img/image-20241126132754197.png)
 
 对应效果
 
-![image-20241126132818035](C:\Users\29424\AppData\Roaming\Typora\typora-user-images\image-20241126132818035.png)
+![image-20241126132818035](./img/image-20241126132818035.png)
 
 
 
 添加对于这个搜索的点击事件，点击搜索跳到搜索页面
 
-![image-20241126132924577](C:\Users\29424\AppData\Roaming\Typora\typora-user-images\image-20241126132924577.png)
+![image-20241126132924577](./img/image-20241126132924577.png)
 
-![image-20241126133012047](C:\Users\29424\AppData\Roaming\Typora\typora-user-images\image-20241126133012047.png)
+![image-20241126133012047](./img/image-20241126133012047.png)
 
 搜索对应的标题或者内容
 
 结果
 
-![image-20241126133102683](C:\Users\29424\AppData\Roaming\Typora\typora-user-images\image-20241126133102683.png)
+![image-20241126133102683](./img/image-20241126133102683.png)
 
 代码实现：
 
 首先获取搜索的关键词
 
-![image-20241126133208888](C:\Users\29424\AppData\Roaming\Typora\typora-user-images\image-20241126133208888.png)
+![image-20241126133208888](./img/image-20241126133208888.png)
 
 根据搜索关键词查询
 
-![image-20241126133242787](C:\Users\29424\AppData\Roaming\Typora\typora-user-images\image-20241126133242787.png)
+![image-20241126133242787](./img/image-20241126133242787.png)
 
 
 
@@ -71,11 +71,11 @@
 
 实现：
 
-![image-20241126155823709](C:\Users\29424\AppData\Roaming\Typora\typora-user-images\image-20241126155823709.png)
+![image-20241126155823709](./img/image-20241126155823709.png)
 
 菜单对应点击，通过getNoteList函数传入sort排序规则，
 
-![image-20241126155913869](C:\Users\29424\AppData\Roaming\Typora\typora-user-images\image-20241126155913869.png)
+![image-20241126155913869](./img/image-20241126155913869.png)
 
 这里设置排序规则从而产生效果
 
@@ -83,19 +83,19 @@
 
 时间默认：
 
-![image-20241126160024075](C:\Users\29424\AppData\Roaming\Typora\typora-user-images\image-20241126160024075.png)
+![image-20241126160024075](./img/image-20241126160024075.png)
 
 时间升序：
 
-![image-20241126160053501](C:\Users\29424\AppData\Roaming\Typora\typora-user-images\image-20241126160053501.png)
+![image-20241126160053501](./img/image-20241126160053501.png)
 
 标题降序：
 
-![image-20241126160128546](C:\Users\29424\AppData\Roaming\Typora\typora-user-images\image-20241126160128546.png)
+![image-20241126160128546](./img/image-20241126160128546.png)
 
 标题升序：
 
-![image-20241126160150431](C:\Users\29424\AppData\Roaming\Typora\typora-user-images\image-20241126160150431.png)
+![image-20241126160150431](./img/image-20241126160150431.png)
 
 
 
@@ -105,25 +105,25 @@
 
 
 
-![image-20241126160631260](C:\Users\29424\AppData\Roaming\Typora\typora-user-images\image-20241126160631260.png)
+![image-20241126160631260](./img/image-20241126160631260.png)
 
 自定义updateFontSize函数修改每个list对应的标题和时间戳的大小
 
-![image-20241126160728885](C:\Users\29424\AppData\Roaming\Typora\typora-user-images\image-20241126160728885.png)
+![image-20241126160728885](./img/image-20241126160728885.png)
 
 对应效果图：
 
 默认：
 
-![image-20241126160755989](C:\Users\29424\AppData\Roaming\Typora\typora-user-images\image-20241126160755989.png)
+![image-20241126160755989](./img/image-20241126160755989.png)
 
 大：
 
-![image-20241126160820512](C:\Users\29424\AppData\Roaming\Typora\typora-user-images\image-20241126160820512.png)
+![image-20241126160820512](./img/image-20241126160820512.png)
 
 小：
 
-![image-20241126160839108](C:\Users\29424\AppData\Roaming\Typora\typora-user-images\image-20241126160839108.png)
+![image-20241126160839108](./img/image-20241126160839108.png)
 
 
 
@@ -131,11 +131,11 @@
 
 通过menu设置两种主题（默认的黑色，以及白色）
 
-![image-20241126161021787](C:\Users\29424\AppData\Roaming\Typora\typora-user-images\image-20241126161021787.png)
+![image-20241126161021787](./img/image-20241126161021787.png)
 
 通过saveThemePreference函数保存对应的主题
 
-![image-20241126161424614](C:\Users\29424\AppData\Roaming\Typora\typora-user-images\image-20241126161424614.png)
+![image-20241126161424614](./img/image-20241126161424614.png)
 
 然后使用setTheme来设置
 
@@ -143,13 +143,13 @@
 
 默认黑色：
 
-![image-20241126161522662](C:\Users\29424\AppData\Roaming\Typora\typora-user-images\image-20241126161522662.png)
+![image-20241126161522662](./img/image-20241126161522662.png)
 
 
 
 白色：
 
-![image-20241126161547786](C:\Users\29424\AppData\Roaming\Typora\typora-user-images\image-20241126161547786.png)
+![image-20241126161547786](./img/image-20241126161547786.png)
 
 
 
@@ -157,7 +157,7 @@
 
 通过menu设置重置按钮来实现对于搜索关键词的清空，以及对于字体重置为默认
 
-![image-20241126161724874](C:\Users\29424\AppData\Roaming\Typora\typora-user-images\image-20241126161724874.png)
+![image-20241126161724874](./img/image-20241126161724874.png)
 
 #### 细节优化
 
@@ -165,14 +165,14 @@
 
 代码实现：
 
-![image-20241126162035321](C:\Users\29424\AppData\Roaming\Typora\typora-user-images\image-20241126162035321.png)
+![image-20241126162035321](./img/image-20241126162035321.png)
 
 效果：
 
 原先的：
 
-![image-20241126162159359](C:\Users\29424\AppData\Roaming\Typora\typora-user-images\image-20241126162159359.png)
+![image-20241126162159359](./img/image-20241126162159359.png)
 
 修改后：
 
-![image-20241126162254032](C:\Users\29424\AppData\Roaming\Typora\typora-user-images\image-20241126162254032.png)
+![image-20241126162254032](./img/image-20241126162254032.png)
