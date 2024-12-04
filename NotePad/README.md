@@ -41,13 +41,86 @@
 
 ![image-20241126132924577](./img/image-20241126132924577.png)
 
+这是搜索页面布局文件的代码
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5dp"
+    android:paddingTop="10dp"
+    android:paddingRight="5dp"
+    android:background="#ddd"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:id="@+id/search_ctn"
+        android:layout_width="1dp"
+        android:layout_weight="0.85"
+        android:layout_height="50dp"
+        android:background="@drawable/border_radius"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/search_logo"
+            android:src="@drawable/search"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            />
+
+        <EditText
+            android:id="@+id/note_search"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="20dp"
+            android:hint="请输入"
+            android:textColor="#333"
+            android:focusable="true"
+            android:singleLine="true"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"/>
+<!--android:background="@android:color/transparent"可以去掉下划线-->
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/note_cancel"
+        android:layout_width="1dp"
+        android:layout_weight="0.15"
+        android:layout_height="50dp"
+        android:text="取消"
+        android:textSize="20dp"
+        android:textColor="#0000ff"
+        android:gravity="center"/>
+
+
+
+
+
+</LinearLayout>
+```
+
+最后搜索页面的效果
+
 ![image-20241126133012047](./img/image-20241126133012047.png)
 
-搜索对应的标题或者内容
+![image-20241204213607034](./img/image-20241204213607034.png)
 
-结果
+这边写搜索rk然后点击搜索按钮，就会跳回list页面
+
+结果(显示两条是因为我Cjb标题的内容下包含了rk)
 
 ![image-20241126133102683](./img/image-20241126133102683.png)
+
+![image-20241204213802349](./img/image-20241204213802349.png)
 
 代码实现：
 
